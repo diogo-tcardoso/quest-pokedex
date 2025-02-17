@@ -1,4 +1,6 @@
     import { getPokemonIDs } from "../services/pokemon-id";
+    import axios from 'axios';
+    import { it, expect, jest } from '@jest/globals';
     
     it('should return array of Pokemon IDs when API request is successful', async () => {
         const mockResponse = {

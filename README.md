@@ -1,6 +1,6 @@
 # Pokédex
 
-Bem-vindo ao **Quest Pokédex**, um aplicativo desenvolvido para auxiliar jogadores de Pokémon Quest a gerenciar e consultar informações sobre seus Pokémon de forma eficiente.
+Bem-vindo a **Pokédex**, um aplicativo desenvolvido como parte do desafio do curso de Frontend do DevQuest, Dev em Dobro. Este aplicativo permite aos usuários explorar e visualizar as informações sobre os Pokémons da 1ª geração.
 
 ## Índice
 
@@ -14,31 +14,28 @@ Bem-vindo ao **Quest Pokédex**, um aplicativo desenvolvido para auxiliar jogado
 
 ## Sobre o Projeto
 
-O **Quest Pokédex** foi criado com o objetivo de fornecer uma ferramenta prática para jogadores de Pokémon Quest. Com este aplicativo, é possível visualizar detalhes dos Pokémon disponíveis no jogo, incluindo tipos, habilidades e métodos de obtenção.
+O **Pokédex** foi criado com o objetivo de treinar minhas capacidades em React e fornecer uma ferramenta prática com os dados dos Pokémons da 1ª geração. Com este aplicativo, é possível visualizar alguns detalhes incluindo tipos, habilidades e golpes disponíveis para cada um.
 
 ## Funcionalidades
 
-- **Consulta de Pokémon**: Pesquise e visualize informações detalhadas sobre cada Pokémon presente no jogo.
-- **Gerenciamento de Equipe**: Monte e gerencie suas equipes de forma otimizada.
-- **Receitas de Cozinha**: Acesse uma lista completa de receitas para atrair diferentes Pokémon.
+- **Consulta de Pokémon**: Pesquise e visualize informações detalhadas sobre cada Pokémon.
 - **Atualizações Constantes**: O aplicativo é atualizado regularmente para incluir novos eventos e Pokémon.
 
 ## Tecnologias Utilizadas
 
 - **Frontend**: React.js
-- **Backend**: Node.js com Express
-- **Banco de Dados**: MongoDB
-- **Estilização**: CSS3
+- **Estilização**: CSS3 e Styled Components do React
+- **Testes**: Funções testadas com Jest
 - **Controle de Versão**: Git
 
 ## Instalação e Execução
 
-Siga os passos abaixo para clonar e executar o **Quest Pokédex** em sua máquina local:
+Siga os passos abaixo para clonar e executar o **Pokédex** em sua máquina local:
 
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/quest-pokedex.git
+   git clone https://github.com/diogo-tcardoso/quest-pokedex
    ```
 
 2. **Acesse o diretório do projeto**:
@@ -47,38 +44,15 @@ Siga os passos abaixo para clonar e executar o **Quest Pokédex** em sua máquin
    cd quest-pokedex
    ```
 
-3. **Instale as dependências do backend**:
+3. **Instale as dependências do frontend**:
+
+   Em uma nova janela/aba do terminal e instale as dependências:
 
    ```bash
-   cd backend
    npm install
    ```
 
-4. **Configure as variáveis de ambiente do backend**:
-
-   Crie um arquivo `.env` na pasta `backend` com as seguintes variáveis:
-
-   ```env
-   PORT=5000
-   MONGO_URI=sua_string_de_conexão_mongodb
-   ```
-
-5. **Inicie o servidor backend**:
-
-   ```bash
-   npm start
-   ```
-
-6. **Instale as dependências do frontend**:
-
-   Em uma nova janela/aba do terminal, acesse a pasta `frontend` e instale as dependências:
-
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-7. **Inicie o aplicativo frontend**:
+4. **Inicie o aplicativo frontend**:
 
    ```bash
    npm start
@@ -104,10 +78,6 @@ Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o
 
 Para dúvidas ou sugestões:
 
-- **Nome**: Seu Nome
-- **Email**: seuemail@dominio.com
-- **GitHub**: [seu-usuario](https://github.com/seu-usuario)
-
----
-
-*Nota: Este README foi criado com base em boas práticas de documentação de projetos no GitHub.* 
+- **Nome**: Diogo Cardoso
+- **Email**: diocardosodev@gmail.com
+- **GitHub**: [diogo-tcardoso](https://github.com/diogo-tcardoso)git 
