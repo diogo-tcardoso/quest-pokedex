@@ -75,15 +75,6 @@ Contribuições são bem-vindas! Se você deseja contribuir com o projeto, siga 
 
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
 
-## Contribuição
-
-Contribuições são bem-vindas! Se você deseja contribuir com o projeto, siga os passos abaixo:
-1. **Fork o repositório**.
-2. **Crie uma branch** para sua feature (`git checkout -b feature/nova-feature`).
-3. **Commit suas alterações** (`git commit -m 'Adiciona nova feature'`).
-4. **Faça o push para a branch** (`git push origin feature/nova-feature`).
-5. **Abra um Pull Request**.
-
 ## Contato
 
 Para dúvidas ou sugestões:
