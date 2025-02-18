@@ -20,6 +20,10 @@ const typeColors = {
 
 export const Container = styled.div`
     text-align: center;
+
+    @media (max-width: 768px) {
+        margin-left: 8px;
+    }
 `;
 
 export const PokemonGrid = styled.ul`
@@ -28,6 +32,7 @@ export const PokemonGrid = styled.ul`
     gap: 10px;
     list-style: none;
     padding: 0;
+    margin-top: 30px;
 
     @media (max-width: 1024px) {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

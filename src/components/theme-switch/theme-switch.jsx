@@ -7,11 +7,11 @@ const ThemeSwitch = () => {
 
     return (
         <SwitchContainer onClick={toggleTheme}>
-            <FaSun size={20} color={theme === "light" ? "#ffdd00" : "#777"} style={{marginRight: "5px"}} />
+            <FaSun size={20} color={theme === "light" ? "#ffdd00" : "#292929"} style={{marginRight: "5px"}} />
             <Switch theme={theme}>
                 <Toggle theme={theme} />
             </Switch>
-            <FaMoon size={20} color={theme === "dark" ? "#ffdd00" : "#777"} style={{marginLeft: "5px"}} />
+            <FaMoon size={20} color={theme === "dark" ? "#ffdd00" : "#292929"} style={{marginLeft: "5px"}} />
         </SwitchContainer>
     );
 };

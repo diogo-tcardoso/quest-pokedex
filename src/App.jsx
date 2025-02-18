@@ -11,7 +11,6 @@ function AppContent(){
   return (
     <>
       <GlobalStyle theme = {theme}/>
-      {/* <ThemeSwitch /> */}
       <AppRoutes />
     </>
   )
@@ -22,7 +21,6 @@ function App() {
     <>
       <ThemeProvider>
         <Header />
-        {/* <img src="./src/assets/img/pokedex-logo.png" alt="pokedex-logo" style={{ width: '35%', height: '25%', maxWidth: '100%', maxHeight: 'auto' }} /> */}
         <AppContent />
       </ThemeProvider>
     </>
