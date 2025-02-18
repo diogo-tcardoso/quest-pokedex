@@ -19,13 +19,15 @@ O **Pokédex** foi criado com o objetivo de treinar minhas capacidades em React 
 ## Funcionalidades
 
 - **Consulta de Pokémon**: Pesquise e visualize informações detalhadas sobre cada Pokémon.
-- **Atualizações Constantes**: O aplicativo é atualizado regularmente para incluir novos eventos e Pokémon.
+- **Filtro por Tipo e Nome**: Você pode filtrar os Pokémons por tipo e nome.
+- **Detalhes do Pokémon**: Visualize detalhes como tipos, habilidades e golpes disponíveis.
+- **Responsividade**: O aplicativo é responsivo e funciona bem em dispositivos móveis.
+- **Escolha seu Tema**: Escolha entre tema claro ou escuro.
 
 ## Tecnologias Utilizadas
 
 - **Frontend**: React.js
 - **Estilização**: CSS3 e Styled Components do React
-- **Testes**: Funções testadas com Jest
 - **PokéAPI**: Utilização da PokéAPI para obter dados dos Pokémons
 - **Controle de Versão**: Git
 

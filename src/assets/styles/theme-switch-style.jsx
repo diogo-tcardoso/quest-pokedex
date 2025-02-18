@@ -6,7 +6,7 @@ export const SwitchContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: end;
-    background-color: #142ef7;
+    background-color: #7ba0bc;
     width: 500px;
     height: 100px;
     gap: 2px;

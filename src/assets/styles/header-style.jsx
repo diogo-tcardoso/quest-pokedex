@@ -4,7 +4,7 @@ export const HeaderContianer = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: #ff1717;
+    background-color: #fdcd47;
     align-items: center;
     gap: 50px;
     margin-bottom: 20px;
