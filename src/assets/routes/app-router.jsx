@@ -13,4 +13,4 @@ function AppRoutes () {
     );
 }
 
-export { AppRoutes};
+export { AppRoutes };

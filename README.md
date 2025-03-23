@@ -1,86 +1,96 @@
-# Pokédex
+# Quest Pokédex
 
-Bem-vindo a **Pokédex**, um aplicativo desenvolvido como parte do desafio do curso de Frontend do DevQuest, Dev em Dobro. Este aplicativo permite aos usuários explorar e visualizar as informações sobre os Pokémons da 1ª geração.
+![Pokédex Logo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png)
 
-## Índice
+> Um aplicativo em React.js para explorar informações sobre os Pokémon, consumindo a API do PokéAPI.
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação e Execução](#instalação-e-execução)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
+## 🚀 Tecnologias Utilizadas
 
-## Sobre o Projeto
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-O **Pokédex** foi criado com o objetivo de treinar minhas capacidades em React e fornecer uma ferramenta prática com os dados dos Pokémons da 1ª geração. Com este aplicativo, é possível visualizar alguns detalhes incluindo tipos, habilidades e golpes disponíveis para cada um.
+- ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) [React.js](https://react.dev/)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) [TypeScript](https://www.typescriptlang.org/)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) [Vite](https://vitejs.dev/)
+- ![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) [Styled Components](https://styled-components.com/)
+- ![React Router](https://img.shields.io/badge/React--Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router](https://reactrouter.com/)
+- ![PokéAPI](https://img.shields.io/badge/Pok%C3%A9API-FBA919?style=for-the-badge&logo=pokemon&logoColor=white) [PokéAPI](https://pokeapi.co/)
 
-## Funcionalidades
+## 📸 Demonstração
 
-- **Consulta de Pokémon**: Pesquise e visualize informações detalhadas sobre cada Pokémon.
-- **Filtro por Tipo e Nome**: Você pode filtrar os Pokémons por tipo e nome.
-- **Detalhes do Pokémon**: Visualize detalhes como tipos, habilidades e golpes disponíveis.
-- **Responsividade**: O aplicativo é responsivo e funciona bem em dispositivos móveis.
-- **Escolha seu Tema**: Escolha entre tema claro ou escuro.
+(Adicione aqui imagens do funcionamento do projeto)
 
-## Tecnologias Utilizadas
+## 🛠️ Funcionalidades
 
-- **Frontend**: React.js
-- **Estilização**: CSS3 e Styled Components do React
-- **PokéAPI**: Utilização da PokéAPI para obter dados dos Pokémons
-- **Controle de Versão**: Git
+- Buscar Pokémon pelo nome ou ID
+- Exibir detalhes do Pokémon (tipo, habilidades, estatísticas)
+- Interface dinâmica e responsiva
+- Navegação entre os Pokémon
 
-## Instalação e Execução
+## 📂 Estrutura do Projeto
 
-Siga os passos abaixo para clonar e executar o **Pokédex** em sua máquina local:
+```
+quest-pokedex/
+├── src/
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas principais do app
+│   ├── services/          # Configuração da API
+│   ├── styles/            # Estilizações globais
+│   ├── App.tsx            # Componente principal
+│   ├── main.tsx           # Ponto de entrada da aplicação
+│   └── routes.tsx         # Configuração das rotas
+├── public/                # Arquivos públicos
+├── package.json           # Dependências do projeto
+└── README.md              # Documentação do projeto
+```
 
-1. **Clone o repositório**:
+## ⚙️ Como Executar
 
-   ```bash
-   git clone https://github.com/diogo-tcardoso/quest-pokedex
+### Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+
+### Passos
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/diogo-tcardoso/quest-pokedex.git
    ```
 
-2. **Acesse o diretório do projeto**:
-
-   ```bash
+2. Acesse a pasta do projeto:
+   ```sh
    cd quest-pokedex
    ```
 
-3. **Instale as dependências do frontend**:
-
-   Em uma nova janela/aba do terminal e instale as dependências:
-
-   ```bash
+3. Instale as dependências:
+   ```sh
    npm install
    ```
 
-4. **Inicie o aplicativo frontend**:
-
-   ```bash
-   npm start
+4. Inicie o projeto:
+   ```sh
+   npm run dev
    ```
 
-Após seguir esses passos, o aplicativo estará disponível em `http://localhost:3000`.
+5. Acesse no navegador:
+   ```
+   http://localhost:5173
+   ```
 
-## Contribuição
+## 🤝 Contribuição
 
-Contribuições são bem-vindas! Se você deseja contribuir com o projeto, siga os passos abaixo:
+Sinta-se à vontade para contribuir! Para isso:
+1. Faça um fork do projeto
+2. Crie uma branch com sua feature (`git checkout -b minha-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Envie para o repositório (`git push origin minha-feature`)
+5. Abra um Pull Request
 
-1. **Fork o repositório**.
-2. **Crie uma branch** para sua feature (`git checkout -b feature/nova-feature`).
-3. **Commit suas alterações** (`git commit -m 'Adiciona nova feature'`).
-4. **Faça o push para a branch** (`git push origin feature/nova-feature`).
-5. **Abra um Pull Request**.
+## 📜 Licença
 
-## Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
+---
 
-## Contato
-
-Para dúvidas ou sugestões:
-
-- **Nome**: Diogo Cardoso
-- **Email**: diocardosodev@gmail.com
-- **GitHub**: [diogo-tcardoso](https://github.com/diogo-tcardoso)git 
+💡 Desenvolvido por **Diogo Timóteo Cardoso** ✨
