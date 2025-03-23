@@ -15,10 +15,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - ![React Router](https://img.shields.io/badge/React--Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router](https://reactrouter.com/)
 - ![PokéAPI](https://img.shields.io/badge/Pok%C3%A9API-FBA919?style=for-the-badge&logo=pokemon&logoColor=white) [PokéAPI](https://pokeapi.co/)
 
-## 📸 Demonstração
-
-(Adicione aqui imagens do funcionamento do projeto)
-
 ## 🛠️ Funcionalidades
 
 - Buscar Pokémon pelo nome ou ID
