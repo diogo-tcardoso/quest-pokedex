@@ -9,7 +9,7 @@
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) [React.js](https://react.dev/)
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) [TypeScript](https://www.typescriptlang.org/)
+- ![JavaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript) [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) [Vite](https://vitejs.dev/)
 - ![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) [Styled Components](https://styled-components.com/)
 - ![React Router](https://img.shields.io/badge/React--Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router](https://reactrouter.com/)
